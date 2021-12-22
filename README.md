@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Website Can be accessed at https://kyowan-friend-app.herokuapp.com/friends
 
-Things you may want to cover:
+This is a simple Ruby On Rails application hosted on heroku. It utilizes the scaffold functionality to create a friends database and devise to handle the login and sign up functionality of the site. You can login using the guest login below, or sign up using any email.
+Guest username: guestuser@gmail.com
+Guest password: guestuser
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
