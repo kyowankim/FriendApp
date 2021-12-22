@@ -1,0 +1,14 @@
+<div class="border">
+  <h1>
+    <%= @friend.first_name.capitalize %>
+    <%= @friend.last_name.capitalize %>
+  </h1>
+  <br>
+  <%= render @friend %>
+</div>
+<div>
+  <br>
+  <%= link_to "Edit this friend", edit_friend_path(@friend), class:"btn btn-primary" %> 
+  <%= link_to "Back to friends", friends_path, class:"btn btn-outline-secondary" %>
+  
+</div>

@@ -1,0 +1,21 @@
+<div class="card">
+  <div class="card-header">
+    <h3>Editing Friend</h3>
+  </div>
+  <div class="card-body">
+    <p class="card-text">
+    <%= render "form", friend: @friend %>
+
+    <br>
+    
+    <div>
+      <%= link_to "View Friend", @friend, class:"btn btn-secondary" %> 
+      <%= link_to "Back to Friends", friends_path, class:"btn btn-outline-primary"%>
+      <br>
+      <br>
+      <%= button_to 'Delete', @friend, method: :delete, data: { confirm: 'confirmation' }, class: "btn btn-danger" %>
+    </div>
+    </p>
+  </div>
+</div>
+
